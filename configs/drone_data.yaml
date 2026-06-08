@@ -1,0 +1,21 @@
+# YOLOv12 Dataset Configuration
+# Drone Detection — ITMO Diploma Thesis
+# Classes: DRONE, AIRPLANE, HELICOPTER, BIRD
+
+path: /content/drive/MyDrive/DroneDetection/dataset
+train: images/train
+val:   images/val
+test:  images/test
+
+nc: 4
+names:
+  0: DRONE
+  1: AIRPLANE
+  2: HELICOPTER
+  3: BIRD
+
+# Dataset statistics (fill in after EDA in 01_dataset_prep.ipynb)
+# total_images: ~10000
+# train_images: ~7000
+# val_images:   ~1500
+# test_images:  ~1500
